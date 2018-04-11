@@ -1,0 +1,101 @@
+*{padding:0;margin:0}
+body{
+    background-color:#c71a1a;
+}
+.award-container {
+    width:1000px;
+    height:510px;
+    padding-top:5px;
+    margin:auto;
+}
+.ly-plate {
+    position:relative;
+    width:510px;
+    height:510px;
+    background:#9c1515;
+    border-radius:260px;
+    float:left;
+}
+.rotate-bg {
+    width: 510px;
+    height: 510px;
+    background:url(../images/ly-plate2.png);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.ly-plate div.lottery-star {
+    width:214px;
+    height:214px;
+    position:absolute;
+    top:150px;
+    left:147px;
+    outline:none
+}
+.ly-plate div.lottery-star #lotteryBtn {
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left:0;
+    *left: -108px;
+}
+img {
+    border:0;
+}
+.slogan {
+    font-size: 3em;
+    color: #fff;
+    font-family:'微软雅黑'
+}
+.slogan-content {
+    color:#fff;
+    margin-bottom: 15px;
+}
+.slogan-num {
+    color: #ff9;
+    margin-top:5px;
+}
+.time{
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+li{
+    list-style:none;
+}
+.username{
+    float:left;
+    width: 240px;
+}
+.msg{
+    float:right;
+}
+.listbox{
+    background:#ffffe6;
+    margin-right:18px;
+}
+#listbox{
+    height: 120px;
+    padding: 10px;
+    overflow: hidden;
+}
+#listbox li{
+    height:24px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    margin-bottom:5px;
+    border-bottom:solid 1px #ccc;
+    position: relative;
+    text-align:left;
+}
+#listbox li img{
+    margin-left:5px;
+}
+#listbox_copymsgid li{list-style:none;}
+.listbox h1{
+    font-size:1.8em;
+    padding:10px 0;
+    margin-bottom:5px;
+    font-family:"微软雅黑";
+    text-align:center;
+}
